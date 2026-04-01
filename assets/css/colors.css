@@ -1,0 +1,31 @@
+/* colors.css
+   Variables de paleta corporativa Accion
+   Pegar en assets/css/colors.css o src/styles/colors.css
+*/
+:root {
+  /* Paleta principal */
+  --acc-primary: #082D4D;    /* Navy Primary */
+  --acc-accent:  #1C85E8;    /* Blue Accent */
+  --acc-orange:  #FD6801;    /* Blaze Orange */
+  --acc-light:   #8ED1FC;    /* Malibu Light */
+  --acc-text:    #7A7A7A;    /* Text Gray */
+
+  /* Superficies y fondo */
+  --acc-bg:      #FFFFFF;
+  --acc-surface: #F6F9FC;
+  --acc-border:  rgba(8,45,77,0.06);
+
+  /* Contrastes y estados */
+  --acc-success: #1FA67A;
+  --acc-danger:  #E03B3B;
+  --acc-muted:   #A8B3C7;
+
+  /* Accesibilidad: texto sobre primary/accent */
+  --acc-on-primary: #FFFFFF;
+  --acc-on-accent:  #FFFFFF;
+
+  /* Espaciado y radios (opcional) */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+}
