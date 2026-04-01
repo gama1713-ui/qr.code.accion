@@ -29,3 +29,25 @@
   --radius-md: 10px;
   --radius-lg: 14px;
 }
+
+/* Alias para compatibilidad con styles.css */
+:root {
+  --primary-color: var(--acc-primary);
+  --accent-color: var(--acc-accent);
+  --danger-color: var(--acc-danger);
+  --success-color: var(--acc-success);
+  --muted-color: var(--acc-muted);
+  --bg-color: var(--acc-bg);
+  --surface-color: var(--acc-surface);
+  --text-color: var(--acc-text);
+}
+
+/* Alias opcional */
+:root {
+  --acc-color: var(--acc-primary);
+}
+
+/* Alias: acc-color apunta a la paleta Accion */
+:root {
+  --acc-color: var(--acc-primary);
+}
