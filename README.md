@@ -113,3 +113,4 @@ MIT License – free for personal and commercial use.
 ---
 
 **Built by [Nuung](https://medium.com/@nuung) — Made for marketers and creators**
+# qr.code.accion
